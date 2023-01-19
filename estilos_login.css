@@ -1,0 +1,55 @@
+#corpo{
+    background-color: rgb(205, 228, 249);
+}
+
+#caixa{
+    width: auto;
+    height: 600px;
+    border: solid rgb(205, 228, 249) 1px;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: radial-gradient(rgba(90, 169, 234, 0.851), rgb(136, 39, 184));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
+}
+
+img{
+    width: 100px;
+    opacity: 67%;
+}
+
+#formulario{
+    text-align: center;
+    margin-top: 85px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: wider;
+    color: rgb(101, 46, 135);
+}
+
+.campo{
+    width: 240px;
+    height: 27px;
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: rgb(205, 228, 249);
+} input:focus{
+    box-shadow: 0 0 0 0;     /* remove a borda preta ao clicar no campo */
+    outline: 0;
+}
+
+#botao{
+    width: 118px;
+    height: 30px;
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: rgb(205, 228, 249);
+    color: rgb(101, 46, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+} #botao:hover{
+    scale: 1.5;
+    background-image: linear-gradient(to right, rgba(90, 169, 234, 0.851), rgb(136, 39, 184));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.252);
+}

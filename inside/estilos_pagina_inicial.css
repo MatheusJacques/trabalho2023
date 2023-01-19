@@ -1,0 +1,97 @@
+#corpo{
+    background-image: linear-gradient(135deg, rgba(75, 7, 246, 0.636), rgba(169, 184, 249, 0.816));
+    width: auto;
+    height: 800px;
+}
+
+#conjunto_btn_cab{
+    text-align: center;
+    margin-top: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
+    background-image: linear-gradient(195deg, rgba(75, 7, 246, 0.636), rgba(169, 184, 249, 0.816));
+}
+
+.btn_cab{
+    width: 110px;
+    height: 85px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(101, 46, 135);
+    background-color: rgb(205, 228, 249);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
+} .btn_cab:hover{
+    scale: 1.3;
+    background-image: linear-gradient(to right, rgba(90, 169, 234, 0.851), rgb(136, 39, 184));
+    transition: 0.3s;
+}
+
+.btn_cab_inativo{
+    width: 110px;
+    height: 85px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(101, 46, 135);
+    background-color: rgb(205, 228, 249);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.3;
+}
+
+#caixa{
+    width: auto;
+    height: 600px;
+    border: solid rgb(205, 228, 249) 1px;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: radial-gradient(rgba(90, 169, 234, 0.851), rgb(136, 39, 184));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.341);
+}
+
+#formulario{
+    text-align: center;
+    margin-top: 85px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: wider;
+    color: rgb(101, 46, 135)
+}
+
+.campo{
+    width: 240px;
+    height: 27px;
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: rgb(205, 228, 249);
+} input:focus{
+    box-shadow: 0 0 0 0;     /* remove a borda preta ao clicar no campo */
+    outline: 0;
+}
+
+#botao{
+    width: 110px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: rgb(205, 228, 249);
+    color: rgb(101, 46, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+} #botao:hover{
+    scale: 1.5;
+    transition: 0.3s;
+    background-image: linear-gradient(to right, rgba(90, 169, 234, 0.851), rgb(136, 39, 184));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.252);
+}
